@@ -1,0 +1,131 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ESTUDIANTES\\Desktop\\Prueba2.0\\testComp\\testComp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ESTUDIANTES\\Desktop\\Prueba2.0\\blazorApp1\\BlazorApp1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ESTUDIANTES\\Desktop\\Prueba2.0\\blazorApp1\\BlazorApp1.csproj",
+        "projectName": "BlazorApp1",
+        "projectPath": "C:\\Users\\ESTUDIANTES\\Desktop\\Prueba2.0\\blazorApp1\\BlazorApp1.csproj",
+        "packagesPath": "C:\\Users\\ESTUDIANTES\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ESTUDIANTES\\Desktop\\Prueba2.0\\blazorApp1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ESTUDIANTES\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.121/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ESTUDIANTES\\Desktop\\Prueba2.0\\testComp\\testComp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ESTUDIANTES\\Desktop\\Prueba2.0\\testComp\\testComp.csproj",
+        "projectName": "testComp",
+        "projectPath": "C:\\Users\\ESTUDIANTES\\Desktop\\Prueba2.0\\testComp\\testComp.csproj",
+        "packagesPath": "C:\\Users\\ESTUDIANTES\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ESTUDIANTES\\Desktop\\Prueba2.0\\testComp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ESTUDIANTES\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ESTUDIANTES\\Desktop\\Prueba2.0\\blazorApp1\\BlazorApp1.csproj": {
+                "projectPath": "C:\\Users\\ESTUDIANTES\\Desktop\\Prueba2.0\\blazorApp1\\BlazorApp1.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "TUnit": {
+              "target": "Package",
+              "version": "[0.77.3, )"
+            },
+            "bunit": {
+              "target": "Package",
+              "version": "[1.40.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.121/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

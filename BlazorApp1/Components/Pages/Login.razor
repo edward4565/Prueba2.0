@@ -1,0 +1,49 @@
+@page "/login"
+@rendermode InteractiveServer
+@inject NavigationManager NavigationManager
+
+<PageTitle>Login</PageTitle>
+
+<h3>Login</h3>
+
+<div class="mb-3">
+    <label>Username:</label>
+    <input class="form-control" @bind="username" />
+</div>
+
+<div class="mb-3">
+    <label>Password:</label>
+    <input type="password" class="form-control" @bind="password" />
+</div>
+
+<button class="btn btn-primary" @onclick="HandleLogin">Login</button>
+
+@if (!string.IsNullOrEmpty(message))
+{
+    <div class="mt-2 text-danger">@message</div>
+}
+
+@code {
+    private string username = string.Empty;
+    private string password = string.Empty;
+    private string message = string.Empty;
+
+    // Usuario y contraseña predeterminados
+    private Dictionary<string, string> users = new()
+    {
+        { "testuser", "Test@123" } // Usuario: testuser | Contraseña: Test@123
+    };
+
+    private void HandleLogin()
+    {
+        if (users.ContainsKey(username) && users[username] == password)
+        {
+            message = ""; // Limpiar mensajes
+            NavigationManager.NavigateTo("/counter"); // Redirige a la página del contador
+        }
+        else
+        {
+            message = "Invalid username or password!";
+        }
+    }
+}
