@@ -6,6 +6,6 @@ pipeline {
             steps {
                 bat "dotnet test testComp"
             }
-    
+             }
     }
 }
