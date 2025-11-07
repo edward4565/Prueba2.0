@@ -56,3 +56,4 @@ C:\Users\ESTUDIANTES\ClasesEdward\Prueba2.0\BlazorApp1\obj\Debug\net8.0\refint\B
 C:\Users\ESTUDIANTES\ClasesEdward\Prueba2.0\BlazorApp1\obj\Debug\net8.0\BlazorApp1.pdb
 C:\Users\ESTUDIANTES\ClasesEdward\Prueba2.0\BlazorApp1\obj\Debug\net8.0\BlazorApp1.genruntimeconfig.cache
 C:\Users\ESTUDIANTES\ClasesEdward\Prueba2.0\BlazorApp1\obj\Debug\net8.0\ref\BlazorApp1.dll
+C:\Users\ESTUDIANTES\ClasesEdward\Prueba2.0\BlazorApp1\obj\Debug\net8.0\BlazorApp1.sourcelink.json

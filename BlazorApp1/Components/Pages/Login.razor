@@ -39,7 +39,7 @@
         if (users.ContainsKey(username) && users[username] == password)
         {
             message = ""; // Limpiar mensajes
-            NavigationManager.NavigateTo("/counter"); // Redirige a la página del contador
+            NavigationManager.NavigateTo("/formulario"); // ✅ Redirige a la nueva página
         }
         else
         {
