@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ESTUDIANTES\\Desktop\\Prueba2.0\\testComp\\testComp.csproj": {}
+    "C:\\Users\\ESTUDIANTES\\ClasesEdward\\Prueba2.0\\testComp\\testComp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ESTUDIANTES\\Desktop\\Prueba2.0\\blazorApp1\\BlazorApp1.csproj": {
+    "C:\\Users\\ESTUDIANTES\\ClasesEdward\\Prueba2.0\\blazorApp1\\BlazorApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ESTUDIANTES\\Desktop\\Prueba2.0\\blazorApp1\\BlazorApp1.csproj",
+        "projectUniqueName": "C:\\Users\\ESTUDIANTES\\ClasesEdward\\Prueba2.0\\blazorApp1\\BlazorApp1.csproj",
         "projectName": "BlazorApp1",
-        "projectPath": "C:\\Users\\ESTUDIANTES\\Desktop\\Prueba2.0\\blazorApp1\\BlazorApp1.csproj",
+        "projectPath": "C:\\Users\\ESTUDIANTES\\ClasesEdward\\Prueba2.0\\blazorApp1\\BlazorApp1.csproj",
         "packagesPath": "C:\\Users\\ESTUDIANTES\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ESTUDIANTES\\Desktop\\Prueba2.0\\blazorApp1\\obj\\",
+        "outputPath": "C:\\Users\\ESTUDIANTES\\ClasesEdward\\Prueba2.0\\blazorApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ESTUDIANTES\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -60,14 +60,14 @@
         }
       }
     },
-    "C:\\Users\\ESTUDIANTES\\Desktop\\Prueba2.0\\testComp\\testComp.csproj": {
+    "C:\\Users\\ESTUDIANTES\\ClasesEdward\\Prueba2.0\\testComp\\testComp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ESTUDIANTES\\Desktop\\Prueba2.0\\testComp\\testComp.csproj",
+        "projectUniqueName": "C:\\Users\\ESTUDIANTES\\ClasesEdward\\Prueba2.0\\testComp\\testComp.csproj",
         "projectName": "testComp",
-        "projectPath": "C:\\Users\\ESTUDIANTES\\Desktop\\Prueba2.0\\testComp\\testComp.csproj",
+        "projectPath": "C:\\Users\\ESTUDIANTES\\ClasesEdward\\Prueba2.0\\testComp\\testComp.csproj",
         "packagesPath": "C:\\Users\\ESTUDIANTES\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ESTUDIANTES\\Desktop\\Prueba2.0\\testComp\\obj\\",
+        "outputPath": "C:\\Users\\ESTUDIANTES\\ClasesEdward\\Prueba2.0\\testComp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ESTUDIANTES\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -82,8 +82,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ESTUDIANTES\\Desktop\\Prueba2.0\\blazorApp1\\BlazorApp1.csproj": {
-                "projectPath": "C:\\Users\\ESTUDIANTES\\Desktop\\Prueba2.0\\blazorApp1\\BlazorApp1.csproj"
+              "C:\\Users\\ESTUDIANTES\\ClasesEdward\\Prueba2.0\\blazorApp1\\BlazorApp1.csproj": {
+                "projectPath": "C:\\Users\\ESTUDIANTES\\ClasesEdward\\Prueba2.0\\blazorApp1\\BlazorApp1.csproj"
               }
             }
           }
