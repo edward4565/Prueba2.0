@@ -30,12 +30,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ESTUDIANTES/ClasesEdward/Prueba2.0/BlazorApp1/Components/Pages/Formulario.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGb3JtdWxhcmlvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ESTUDIANTES/ClasesEdward/Prueba2.0/BlazorApp1/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ESTUDIANTES/ClasesEdward/Prueba2.0/BlazorApp1/Components/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ESTUDIANTES/ClasesEdward/Prueba2.0/BlazorApp1/Components/Pages/pago.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xwYWdvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ESTUDIANTES/ClasesEdward/Prueba2.0/BlazorApp1/Components/Pages/Weather.razor]

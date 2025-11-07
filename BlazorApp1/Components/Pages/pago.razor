@@ -1,0 +1,53 @@
+@page "/pago"
+@rendermode InteractiveServer
+@inject NavigationManager NavigationManager
+
+<PageTitle>Pasarela de Pago</PageTitle>
+
+<h3>Pasarela de Pago</h3>
+
+@if (string.IsNullOrEmpty(nombre))
+{
+    <p class="text-danger">Error: datos incompletos. Regrese al formulario.</p>
+}
+else
+{
+    <p><strong>Cliente:</strong> @nombre</p>
+    <p><strong>Correo:</strong> @correo</p>
+    <p><strong>Monto:</strong> $@monto USD</p>
+
+    <div class="mt-4">
+        <button class="btn btn-primary" @onclick="ProcesarPago">Pagar Ahora</button>
+    </div>
+}
+
+@if (!string.IsNullOrEmpty(mensaje))
+{
+    <div class="mt-3 alert alert-info">@mensaje</div>
+}
+
+@code {
+    [Parameter]
+    [SupplyParameterFromQuery]
+    public string nombre { get; set; } = string.Empty;
+
+    [Parameter]
+    [SupplyParameterFromQuery]
+    public string correo { get; set; } = string.Empty;
+
+    [Parameter]
+    [SupplyParameterFromQuery]
+    public decimal monto { get; set; }
+
+    private string mensaje = string.Empty;
+
+    private async Task ProcesarPago()
+    {
+        // Aquí podrías integrar una API real (Stripe, PayPal, etc.)
+        // Por ahora simulamos un pago con delay
+        mensaje = "Procesando pago...";
+        await Task.Delay(2000); // Simula el procesamiento
+
+        mensaje = "✅ Pago realizado con éxito. ¡Gracias por su compra!";
+    }
+}
